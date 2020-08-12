@@ -5,7 +5,7 @@ from IPython.display import HTML
 #import matplotlib.pyplot as plt
 
 
-class AmazonBuddy(server.App):
+class Cryptoheaven(server.App):
     title = "Cryptoheaven "
     inputs = [{ "type":"dropdown",
                 "key":"ticker",
@@ -32,6 +32,6 @@ class AmazonBuddy(server.App):
 
 
 
-app = AmazonBuddy()
+app = Cryptoheaven()
 app.launch()
 exit
