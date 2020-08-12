@@ -23,7 +23,7 @@ class AmazonBuddy(server.App):
 
     def getData(self, params):
         ticker = params['ticker']
-        key = '6CGJ8IWIR2UQ361H'
+        key = '' #insertkeyhere-for.ex-6CGJ8IWIR2UQ361H
         cc = CryptoCurrencies(key,output_format='pandas')
         df, meta = cc.get_digital_currency_daily(symbol=ticker,market='USD')
 
